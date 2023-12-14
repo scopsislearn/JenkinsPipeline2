@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo 'Testing....'
         sh 'pwd'
-        sh "./build/sh"
+        sh './build/sh'
       }
     }
 
