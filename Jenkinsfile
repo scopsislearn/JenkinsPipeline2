@@ -14,6 +14,7 @@ pipeline {
             echo 'Testing....'
             sh 'pwd'
             sh 'ls -la'
+            sh './jenkins/test-all.sh'
           }
         }
 
