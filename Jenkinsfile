@@ -14,7 +14,8 @@ pipeline {
             echo 'Testing....'
             sh 'pwd'
             sh 'ls -la'
-            sh './test-all.sh'
+            sh '''chmod +x test-all.sh
+./test-all.sh'''
           }
         }
 
