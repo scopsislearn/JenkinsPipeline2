@@ -15,9 +15,9 @@ pipeline {
       }
     }
 
-    stage('Test') {
+    stage('Var') {
       steps {
-        archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
+        sh 'echo The Hello variable is $HELLO'
       }
     }
 
