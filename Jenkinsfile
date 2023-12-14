@@ -12,7 +12,7 @@ pipeline {
         echo 'Testing....'
         sh 'pwd'
         sh 'ls -la'
-        sh './build/sh'
+        sh './build.sh'
       }
     }
 
